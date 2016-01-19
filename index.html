@@ -1,0 +1,23 @@
+<html ng-app="MyApp">
+<head>
+	<title>Simple example of nodejs, Gulpjs and angularjs</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div ng-controller="BodyCtrl">
+		<div class="padTop"></div>
+		<h1 class="animated infinite bounce">{{message}}</h1>
+		<p><b>1+2 = {{1+2}}</b></p> 
+		<h2>Used Plugins</h2>
+		<div ng-repeat="plugin in plug">
+			<b style="color:green;">{{plugin.name}}</b>
+		</div>
+		<!-- <h2 class="animated flipInY">{{lesscss}}</h2> -->
+	</div>
+	<script src="libs.js"></script>
+	<script src="application.js"></script>
+</body>
+</html>
+
+
+
